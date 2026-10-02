@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>物來物往｜旅行選物・期間代購・好物交換</title>
+<meta name="description" content="從世界帶回喜歡的，也讓閒置的好物繼續旅行。">
+<style>
+:root{--cream:#fff9ef;--paper:#fffdf8;--brown:#4a2b1e;--tan:#b66d43;--orange:#e87445;--soft:#f5e5cf;--line:#ead9c5;--green:#4e8a5b;--red:#d84d3f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--brown);font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC",sans-serif}
+a{color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 18px}
+.top{background:#fffaf2;border-bottom:1px solid var(--line)}.topin{min-height:92px;display:flex;align-items:center;gap:22px}.brand{display:flex;align-items:center;gap:13px;min-width:300px}.mascot{width:68px;height:68px;border-radius:50%;display:grid;place-items:center;background:#ffd8cf;font-size:40px;border:2px solid #6a3b29}.brand h1{margin:0;font-size:34px;letter-spacing:.12em}.brand small{display:block;margin-top:3px;letter-spacing:.12em}.slogan{font-family:serif;font-size:16px;line-height:1.7;flex:1}.tools{display:flex;gap:12px}.tool{font-size:13px;text-align:center;text-decoration:none}.ico{font-size:24px;display:block}
+nav{position:sticky;top:0;z-index:10;background:#fffdf8ef;backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}nav .wrap{display:flex;justify-content:center;gap:28px;overflow:auto;padding-top:13px;padding-bottom:13px}nav a{white-space:nowrap;text-decoration:none;font-weight:800}
+.hero{min-height:330px;background:linear-gradient(100deg,#d9f0e5 0%,#f7e6bd 48%,#f8d9c9 100%);position:relative;overflow:hidden}.hero:after{content:"✈︎";position:absolute;font-size:130px;right:8%;top:55px;opacity:.12;transform:rotate(-12deg)}.hero .wrap{min-height:330px;display:flex;align-items:center}.heroCopy{max-width:620px}.eyebrow{font-weight:900;color:var(--tan);letter-spacing:.12em}.hero h2{font-family:serif;font-size:38px;line-height:1.45;margin:10px 0}.hero p{line-height:1.8}.btn{display:inline-block;border:0;border-radius:999px;background:var(--brown);color:white;padding:12px 18px;text-decoration:none;font-weight:900}.btn.orange{background:var(--orange)}
+.quick{margin-top:-26px;position:relative;z-index:2}.quickgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.q{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px 10px;text-align:center;text-decoration:none;box-shadow:0 10px 30px #6d402012}.q .qi{font-size:32px}.q b{display:block;margin:6px 0}.q small{color:#856d5e}
+section{padding:34px 0}.sectionHead{display:flex;align-items:end;justify-content:space-between;margin-bottom:15px}.sectionHead h3{font-size:24px;margin:0}.sectionHead p{margin:4px 0 0;color:#887064}.more{text-decoration:none;font-size:14px;font-weight:800}
+.panels{display:grid;grid-template-columns:1.05fr 1fr 1fr;gap:14px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:18px}.logos{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}.logo{min-height:70px;background:#fff;border:1px dashed #d9c4ae;border-radius:14px;display:grid;place-items:center;text-align:center;font-weight:800;font-size:13px}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.product{background:var(--paper);border:1px solid var(--line);border-radius:18px;overflow:hidden}.photo{aspect-ratio:1/1;background:linear-gradient(145deg,#f1e2d3,#fff7eb);display:grid;place-items:center;text-align:center;padding:16px;color:#8c7261;font-weight:800}.pc{padding:13px}.pc b{display:block;margin-bottom:5px}.state{font-size:12px;color:var(--orange);font-weight:800}.pill{display:inline-block;background:#f3dfcb;border-radius:999px;padding:5px 8px;font-size:11px;margin:7px 4px 0 0}
+.values{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.value{background:#fffaf2;border:1px solid var(--line);border-radius:18px;padding:17px;display:flex;gap:12px}.value i{font-style:normal;font-size:30px}.value b{display:block}.value small{color:#806b5e}
+.notice{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px;line-height:1.9}.footer{text-align:center;padding:36px 16px 55px;color:#846e61;font-size:13px}
+@media(max-width:850px){.slogan,.tools{display:none}.topin{justify-content:center}.brand{min-width:0}.quickgrid{grid-template-columns:repeat(3,1fr)}.panels{grid-template-columns:1fr}.products{grid-template-columns:repeat(2,1fr)}.values{grid-template-columns:repeat(2,1fr)}nav .wrap{justify-content:flex-start}.hero h2{font-size:31px}}
+@media(max-width:520px){.brand h1{font-size:29px}.mascot{width:58px;height:58px}.hero,.hero .wrap{min-height:300px}.hero h2{font-size:27px}.quickgrid{grid-template-columns:repeat(2,1fr)}.products{grid-template-columns:1fr 1fr}.values{grid-template-columns:1fr}.photo{font-size:13px}.q{padding:14px 8px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap topin">
+  <div class="brand"><img src="thingsgo-logo.jpg" alt="物來物往 Logo" style="width:82px;height:82px;border-radius:50%;object-fit:cover;border:1px solid var(--line)"><div><h1>物來物往</h1><small>Good thing s go around</small></div></div>
+  <div class="slogan">從世界帶回喜歡的，<br>也讓閒置的好物繼續旅行 ♡</div>
+  <div class="tools"><a class="tool" href="#orders"><span class="ico">📦</span>訂單查詢</a><a class="tool" href="#line"><span class="ico">💬</span>官方 LINE</a></div>
+</div></header>
+<nav><div class="wrap"><a href="#">🏠 首頁</a><a href="#world">🌎 世界選物</a><a href="#buy">🛫 本期代購</a><a href="#wish">🔎 許願找貨</a><a href="#swap">♻️ 好物交換</a><a href="#orders">📋 訂單查詢</a><a href="#about">🤎 關於我們</a></div></nav>
+
+<section class="hero"><div class="wrap"><div class="heroCopy">
+<div class="eyebrow">TRAVEL · FIND · EXCHANGE</div>
+<h2>從世界帶回喜歡的，<br>也讓閒置的好物繼續旅行 ♡</h2>
+<p>旅行選物・期間代購・好物交換。找到喜歡的就帶回家，也讓家裡用不到的好東西遇見下一位主人。</p>
+<a class="btn orange" href="#swap">逛逛好物</a>
+</div></div></section>
+
+<div class="quick"><div class="wrap quickgrid">
+<a class="q" href="#world"><div class="qi">🌎</div><b>世界選物</b><small>各國好物・精選推薦</small></a>
+<a class="q" href="#buy"><div class="qi">✈️</div><b>本期代購</b><small>期間限定・現場連線</small></a>
+<a class="q" href="#wish"><div class="qi">🔎</div><b>許願找貨</b><small>告訴我們想要的</small></a>
+<a class="q" href="#swap"><div class="qi">♻️</div><b>好物交換</b><small>二手・閒置・全新品</small></a>
+<a class="q" href="#orders"><div class="qi">📦</div><b>訂單查詢</b><small>代購・預售・交換</small></a>
+<a class="q" href="#line"><div class="qi">💬</div><b>聯絡我們</b><small>詢價・大量訂購</small></a>
+</div></div>
+
+<section id="buy"><div class="wrap">
+<div class="sectionHead"><div><h3>✈️ 本期代購｜加拿大 <span style="color:var(--red);font-size:15px">收單中</span></h3><p>Canada 代購登記・不定期開團・現場採買</p></div><a class="more" href="#">查看更多 ›</a></div>
+<div class="panels">
+<div class="panel"><b>熱門品牌</b><div class="logos"><div class="logo">Canada<br>Goose</div><div class="logo">lululemon</div><div class="logo">alo</div><div class="logo">Starbucks</div></div></div>
+<div class="panel" id="world"><b>🌎 旅行選物</b><p class="muted">加拿大・巴西・日本・希臘等旅行好物。</p><div class="logos"><div class="logo">🇨🇦<br>Canada</div><div class="logo">🇧🇷<br>Brazil</div><div class="logo">🇯🇵<br>Japan</div><div class="logo">🇬🇷<br>Greece</div></div></div>
+<div class="panel" id="wish"><b>🔎 許願找貨</b><p>找不到想要的？可以告訴我們品牌、商品名稱、照片或預算，旅行時幫你留意。</p><a class="btn" href="#" onclick="alert('許願表單準備中 ♡');return false">我要許願</a></div>
+</div></div></section>
+
+<section id="swap"><div class="wrap">
+<div class="sectionHead"><div><h3>♻️ 精選好物交換</h3><p>交換條件是參考，也歡迎提出其他方案。</p></div><a class="more" href="#all">查看全部 ›</a></div>
+<div class="products">
+<div class="product"><div class="photo">商品照片<br>FOODIE 儲物罐</div><div class="pc"><b>FOODIE 儲物罐組</b><span class="state">全新｜交換中</span><br><span class="pill">10 包衛生紙</span><span class="pill">可提案</span></div></div>
+<div class="product"><div class="photo">商品照片<br>小王子折疊椅</div><div class="pc"><b>小王子折疊椅</b><span class="state">全新｜交換中</span><br><span class="pill">15 包衛生紙</span></div></div>
+<div class="product"><div class="photo">商品照片<br>毛絨靴子</div><div class="pc"><b>毛絨靴子 24 號</b><span class="state">交換中</span><br><span class="pill">10 包衛生紙</span></div></div>
+<div class="product"><div class="photo">商品照片<br>荷蘭木屐鞋</div><div class="pc"><b>荷蘭木屐鞋 38 號</b><span class="state">全新｜交換中</span><br><span class="pill">60 包衛生紙</span></div></div>
+</div>
+<p style="text-align:center;margin-top:20px"><a class="btn orange" href="#" onclick="alert('交換申請表準備中 ♡');return false">我要交換／提出方案</a></p>
+</div></section>
+
+<section id="about"><div class="wrap values">
+<div class="value"><i>✈️</i><div><b>帶回世界的好物</b><small>旅行選物・期間代購</small></div></div>
+<div class="value"><i>♻️</i><div><b>讓好物繼續旅行</b><small>二手・閒置・物品交換</small></div></div>
+<div class="value"><i>🛡️</i><div><b>安心交易</b><small>確認報價・收到款項後代購／寄出</small></div></div>
+<div class="value"><i>♡</i><div><b>你的需求，我們找</b><small>找不到也可以許願找貨</small></div></div>
+</div></section>
+
+<section id="orders"><div class="wrap"><div class="notice"><b>📋 訂單查詢</b><br>這個位置已經替你保留。等申請表與訂單後台部署完成後，可以接上「已確認 → 待寄出 → 已寄出 → 已完成」的查詢功能。</div></div></section>
+<section id="line"><div class="wrap"><div class="notice"><b>💬 官方 LINE</b><br>之後把你的官方 LINE 連結放在這裡，客人就能從網站直接聯絡你。</div></div></section>
+<footer class="footer">物來物往 · Good thing s go around ♡<br>從世界帶回喜歡的，也讓閒置的好物繼續旅行。</footer>
+</body></html>
